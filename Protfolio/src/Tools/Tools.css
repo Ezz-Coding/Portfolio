@@ -1,0 +1,230 @@
+.Vidoe1 {
+ width: 100%;
+ height: 100vh;
+ position: relative;
+object-fit: cover;
+ transition: .5s ease;
+
+}
+
+.GetInformtion{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.GetInformtion h1{
+    color: aliceblue;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+.GetInformtion p{
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 30%;
+}
+.GetInformtion  span .typing-textSE{
+    color: #004aad;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: 50px;
+transition: .5s ease;
+  }
+.GetInformtion  span .typing-textSEDark{
+    color: #5b99b4;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: 50px;
+transition: .5s ease;
+
+}
+@keyframes typingFS {
+  from { width: 0 }
+  to { width: 40% }
+}
+@keyframes typingSE {
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 0;
+  }
+  70%{
+    width: 30%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+
+}
+
+.typing-textFS  {
+  overflow: hidden;
+ white-space: nowrap; /* بدل nowrap */
+  
+  border-right: 2px solid #fff;
+  width: 0;
+  animation: 
+    typingFS 2s steps(40, end) forwards,
+    blink 0.75s step-end infinite;
+    
+}
+.typing-textSE  {
+  overflow: hidden;
+ white-space: nowrap; /* بدل nowrap */
+  
+  border-right: 2px solid #fff;
+  width: 0;
+  animation: 
+    typingSE 4s steps(40, end) forwards,
+    blink 0.75s step-end infinite;
+}
+.GetInformtion  .light i{
+  position: relative;
+  transition: .5s;
+  left: 45% ;
+  color: aliceblue;
+font-size: xxx-large;
+cursor: pointer;
+animation: moving 1.8s infinite;
+}
+.GetInformtion  .Dark i{
+  position: relative;
+  transition: .5s;
+  left: 45% ;
+  color: aliceblue;
+font-size: xxx-large;
+cursor: pointer;
+animation: moving 1.8s infinite;
+}
+.GetInformtion .Dark i:hover{
+  color: #5b99b4;
+}
+.GetInformtion .light  i:hover{
+  color: #004aad;
+}
+@keyframes moving {
+  0%{
+    top: 100px;
+  }
+  50%{
+    top: 120px;
+  }
+  100%{
+    top: 100px;
+  }
+}
+.Tops{
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+ z-index: 4;
+animation: moveTop 2s forwards ease;
+transition: .5 ease;
+
+}
+.TopsDark{
+    width: auto;
+  height: auto;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+ z-index: 4;
+animation: moveTop 2s forwards ease;
+transition: .5 ease;
+
+}
+.Tops button{
+  border-radius: 50%;
+   width: 40px;
+  height: 40px;
+  font-size: larger;
+  color: aliceblue;
+ cursor: pointer;
+ border: 0;
+ background-color: black;
+
+transition: .5 ease;
+}
+.TopsDark button{
+    border-radius: 50%;
+   width: 40px;
+  height: 40px;
+  font-size: larger;
+  color: aliceblue;
+ cursor: pointer;
+ border: 0;
+ color: #000;
+
+ background-color: aliceblue;
+
+transition: .5 ease;
+}
+.Tops button:hover{
+  transform: scale(1.05);
+}
+.TopsDark button:hover{
+  transform: scale(1.05);
+}
+@keyframes moveTop {
+  from{
+    opacity: 0;
+    top: 85%;
+  }
+  to{
+    opacity: 1;
+    top: 85%;
+
+  }
+}
+.typing-textSEDark{
+  overflow: hidden;
+ white-space: nowrap; /* بدل nowrap */
+  color: #5b99b4 ;
+  border-right: 2px solid #fff;
+  width: 0;
+  animation: 
+    typingSE 4s steps(40, end) forwards,
+    blink 0.75s step-end infinite
+}
+@media (max-width: 980px){
+  .TopsDark{
+    display: none;
+  }
+  .Tops{
+    display: none;
+  }
+.GetInformtion h1{
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 11%;
+    width: 250px;
+    
+}
+
+  .GetInformtion p{
+font-size:   medium;
+    margin-left: 35%;
+
+  }
+    .GetInformtion span .typing-textSEDark{
+    margin-left: 20%;
+font-size:large;
+
+  }
+    .GetInformtion span .typing-textSE{
+font-size:large;
+   margin-left: 20%;
+
+  }
+}
