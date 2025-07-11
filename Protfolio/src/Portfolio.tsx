@@ -1,8 +1,8 @@
 
-import Index from './Body/Index.tsx';
+import Index from './Body/Index';
 
 import { useState } from "react";
-import Loading from './Loading/Loading.tsx';
+import Loading from './Loading/Loading';
 
 
 const Portfolio = () => {

@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Portfolio from './Portfolio.tsx'
+import Portfolio from './Portfolio'
 import 'remixicon/fonts/remixicon.css';
-import { ContextProvider } from './Context/ContextProvider.tsx';
+import { ContextProvider } from './Context/ContextProvider';
 
 
 createRoot(document.getElementById('root')!).render(
