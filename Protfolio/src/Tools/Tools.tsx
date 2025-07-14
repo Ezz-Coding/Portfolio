@@ -1,6 +1,6 @@
 import './Tools.css';
-import Video1 from './../../../Tools/Vidoe1.mp4';
-import Video2 from './../../../Tools/Vidoe2.mp4';
+import Video1 from './../../../Tools/Vidoe1.webm';
+import Video2 from './../../../Tools/Vidoe2.webm';
 import { useContext } from 'react';
 import { ContextAll } from '../Context/ContextProvider';
 import Typewriter from 'typewriter-effect';
