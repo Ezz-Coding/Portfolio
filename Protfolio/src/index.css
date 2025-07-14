@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  animation: Op 2s forwards;
+  animation: Op .5s forwards;
   font-family: Arial, Helvetica, sans-serif;
   background-color: lightgray ;
 
@@ -18,7 +18,7 @@ to{
 @keyframes OPUp {
   from{
  opacity: 0;
- top: 25%;
+ top: 10%;
   }
   to{
 opacity: 1;

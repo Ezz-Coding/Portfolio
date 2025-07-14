@@ -15,7 +15,7 @@ if (!context) {
     
           
            
-             if (scrollY > 3300) {
+             if (scrollY > 3000) {
               SetAnmations(true)
             }
             else{

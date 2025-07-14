@@ -59,3 +59,19 @@ footer p{
    font-size: medium;
 }
 }
+@media (max-width: 650px){
+.Footer{
+   height: 100px;
+}
+.FooterDark{
+  
+    height: 100px;
+
+}
+.MainFooter p{
+    font-size: x-small;
+}
+.MainFooterDark p{
+    font-size: x-small;
+}
+}

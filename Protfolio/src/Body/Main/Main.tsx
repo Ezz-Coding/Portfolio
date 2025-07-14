@@ -48,7 +48,7 @@ useEffect(() => {
         else{
           setSkills(false)
         }
-         if (scrollY > 3100) {
+         if (scrollY > 2500) {
           setcontact(true)
         }
         else{
@@ -72,8 +72,8 @@ useEffect(() => {
     {click?<div className="BlackScreen" >
         <i className="ri-close-line"onClick={()=>setclick(!click)}></i>
     </div>:null}
-    {AboutMe?<div className="Main_About">
-       <span className={Winners?'AboutMeDark':'AboutMeLight'}> <h1>About Me</h1></span>
+   <div className="Main_About">
+       {AboutMe?<> <span className={Winners?'AboutMeDark':'AboutMeLight'}> <h1>About Me</h1></span>
 
         <div className="Main_Information_ME">
             <div className="ImageAndName">
@@ -109,10 +109,10 @@ I design and develop modern web applications using React, TypeScript, Node.js, a
 
 </p>
             </div>
-        </div>
-    </div>:null}
-   {Skills? <div className={Winners?"Main_SkillsDarks":"Main_Skills"}>
-  <span><h1>My Skills</h1></span>
+        </div></>:null}
+    </div>
+    <div className={Winners?"Main_SkillsDarks":"Main_Skills"}>
+  {Skills?<><span><h1>My Skills</h1></span>
   <div className="Main_InformationSkills">
     <div className="Button_Skills">
       <button className={Infomations === "All"? 'buttonClick' :Winners?'buttonDark':'button'}  onClick={()=>setInformations("All")}>All</button>
@@ -247,9 +247,9 @@ I design and develop modern web applications using React, TypeScript, Node.js, a
      </> :null }
     </div>
   </div>
-  {contact ?
+
   <div className="MainContent">
- <b><span className={Winners?'ContactDark': 'ContactLight'}> <h2>My contact</h2></span></b>
+   {contact ?<><b><span className={Winners?'ContactDark': 'ContactLight'}> <h2>My contact</h2></span></b>
 
   <div className="Main_informtationContent">
     <div className={Winners?"BlankDark":"BlankLight"}>
@@ -264,13 +264,13 @@ I design and develop modern web applications using React, TypeScript, Node.js, a
 
 
     </div>
-    
+    </div></> :null}
   </div>
-</div>:null}
-    </div>:null}
 
-    </>
-  )
-}
+    </>:null}
+
+</div>
+ </>) }
+
 
 export default Main

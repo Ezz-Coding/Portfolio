@@ -1,5 +1,6 @@
 .Main_About{
     margin-top: 200px;
+    height: 1400px;
 }
  .AboutMeLight  h1{
     text-align: center;
@@ -17,7 +18,7 @@
 .h1sNamedark{
     color: aliceblue;
 }
- .AboutMeDark  h1{
+ .AboutMeDark  h1{  
     text-align: center;
     color: #5b99b4;
     font-family: 900;
@@ -29,6 +30,7 @@
 .Main_Information_ME{
     display: grid;
     grid-template-columns: auto auto;
+  
 }
 .ImageAndName{
     margin-top: 10%;
@@ -577,7 +579,7 @@ padding: 10px;
     grid-template-columns: 1fr;
 }
 .Main_About h1{
-    font-size: larger;
+    font-size: x-large;
 }
 .ImageAndName{
     margin-left: 32%;
@@ -707,20 +709,22 @@ font-size: small;
 
 }
 .SkillsDark{
-width: 70%;
+width: 90%;
 height: 100px;
 margin: 0;
 }
 .Skills{
-width: 70%;
+width: 90%;
 height: 100px;
 margin: 0;
 }
 .SubSkills{
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: auto auto ;
     height: auto;
-   padding-bottom: 250px;    
+   padding-bottom: 50px;
+   margin-left: 7%;
+    
 }
 .Main_InformationSkills{
     height: auto;
@@ -769,7 +773,10 @@ font-size: small;
     gap: 0;
 }
 .Main_Skills span h1{
-    font-size: large;
+    font-size: x-large;
+}
+.Main_SkillsDarks span h1{
+    font-size: x-large;
 }
 .Skills p{
     font-size: smaller;
@@ -777,36 +784,49 @@ font-size: small;
 }
 @media (max-width: 620px){
     .ImageAndName{
-        margin-left: 45%;
+        margin-left: 25%;
         transition: .5s ease;
     }
 .InformationAboutMe{
     width: 90%;
-    margin-left: 0;
+        margin-left: 5%;
+
     margin-bottom: 100px;
 }
 .InformationAboutMeDark{
     width: 90%;
-    margin-left: 0;
+    margin-left: 5%;
         margin-bottom: 100px;   
 }
 .Word1Dark{
     height: auto;
     padding-bottom: 10px;
+    width: 90%;
+    left: 0;
+    margin-left: 5%;
     margin-bottom: 100px;
 }.Word2Dark{
     height: auto;
     padding-bottom: 10px;
     margin-bottom: 100px;
+      width: 90%;
+    left: 0;
+    margin-left: 5%;    
 }
 .Word1{
     height: auto;
     padding-bottom: 10px;
     margin-bottom: 100px;
+      width: 90%;
+    left: 0;
+    margin-left: 5%;
 }.Word2{
     height: auto;
     padding-bottom: 10px;
     margin-bottom: 100px;
+      width: 90%;
+    left: 0;
+    margin-left: 5%;
 }
 .BlackScreen i{
     left: 85%;
@@ -855,22 +875,30 @@ grid-template-columns: auto auto;
     margin-top: 10%;
     margin-left: 5%;
 font-size: x-small;
+font-weight: 900;
 }
 .BlankDark h1{
     margin-top: 10%;
     margin-left: 5%;
 font-size: x-small;
+font-weight: 900;
+
 }
 .MainContent {
     margin-top: 95%;
 }
 .MainContent b .ContactLight h2 {
-    font-size: medium;
+    font-size: x-large;
 }
 .MainContent b .ContactDark h2 {
-    font-size: medium;
+    font-size: x-large;
 }
 .BlankLight a{
+font-weight: 200;
+    
+font-size: x-small;
+}.BlankDark a{
+font-weight: 200;
     
 font-size: x-small;
 }
@@ -885,5 +913,17 @@ font-size: x-small;
     grid-template-columns: 1fr;
     gap: 0;
    
+}
+.Main_Skills{
+    height: 1600px;
+}
+.Main_SkillsDarks{
+ height: 1600px;
+}
+.MainContent{
+    margin-top: 200px;
+}
+.MainContent .BlankLight p{
+ font-size: larger;
 }
 }

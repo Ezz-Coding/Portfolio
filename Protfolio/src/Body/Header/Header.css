@@ -294,60 +294,76 @@ color: #004aad;
     font-size: x-large;
 }
 }
-@media (max-width:550px) {
-    .Main_Navbar{
-    width: 40%;
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    right: 0;
-    background-color: rgba(240, 248, 255, 0.655);
+@media (max-width: 550px) {
+ .Main_Navbar,
+.Main_NavbarDark {
+  width: 40%;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  right: -60%; /* ضروري لتفعيل الأنيميشن */
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  overflow-y: auto;
+}
 
-  backdrop-filter: blur(10px); 
+.Main_Navbar {
+  background-color: rgba(240, 248, 255, 0.655);
+}
 
-  }
-  .Main_Navbar a:hover{
-    transform: scale(1.01);
-  }
-  .Main_NavbarDark{
-width: 40%;
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    right: 0;
-    background-color: rgba(17, 17, 17, 0.784);
+.Main_NavbarDark {
+  background-color: rgba(17, 17, 17, 0.784);
+}
 
-  backdrop-filter: blur(10px); 
-  }
-    .Mobile_Nav{
+  .Mobile_Nav,
+  .Mobile_NavDark {
     width: 20%;
     display: grid;
     grid-template-columns: auto auto;
-       margin-left: 40%;
-padding-top: 15px;
-  }
-  .Mobile_NavDark{
-    width: 20%;
-
- display: grid;
-    grid-template-columns: auto auto;
-   padding-top: 15px;
     margin-left: 40%;
+    padding-top: 15px;
+  }
 
-  }
-  .Main_NavbarDark a{
-    color: aliceblue;
-    text-decoration: none;
-    font-size: medium ;
-transition: .5s ease;
-margin-left: 15%;
-  }
-    .Main_Navbar a{
-    color: black;
+  .Mobile_Nav a,
+  .Mobile_NavDark a {
     text-decoration: none;
     font-size: medium;
-transition: .5s ease;
-margin-left: 15%;
+    transition: 0.5s ease;
+    margin-left: 15%;
+  }
 
+  .Mobile_Nav a {
+    color: black;
+  }
+
+  .Mobile_NavDark a {
+    color: aliceblue;
+  }
+
+  .Mobile_Nav a:hover,
+  .Mobile_NavDark a:hover {
+    font-size: medium;
+  }
+
+  @keyframes NavOpen {
+    from {
+      right: -60%;
+      opacity: 0;
+    }
+    to {
+      right: 0%;
+      opacity: 1;
+    }
+  }
+
+  @keyframes NavClose {
+    from {
+      right: 0%;
+      opacity: 1;
+    }
+    to {
+      right: -60%;
+      opacity: 0;
+    }
   }
 }
