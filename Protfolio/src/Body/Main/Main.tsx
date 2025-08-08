@@ -10,7 +10,7 @@ import JavaScript from './../../../../Tools/JavaScript.png';
 import Node from './../../../../Tools/Node.js.png';
 import Express from './../../../../Tools/Express.png';
 import Netlfiy from './../../../../Tools/Netlify_Symbol_2.webp';
-
+import Project1 from './../../../../Tools/Project1.png'
 import {  useContext, useEffect, useState } from 'react'
 import { ContextAll } from '../../Context/ContextProvider';
 
@@ -23,7 +23,7 @@ const Main = () => {
   const [Infomations ,setInformations] = useState<string>("All");
    const context = useContext(ContextAll);
   if (!context) return null;
-  const {setTop,setAboutMe,setSkills,setcontact,AboutMe,Skills,contact,Winners}= context;
+  const {setTop,setAboutMe,setSkills,AboutMe,Skills,Winners}= context;
 
 useEffect(() => {
   document.body.style.overflow = click ? 'hidden' : 'auto';
@@ -48,12 +48,7 @@ useEffect(() => {
         else{
           setSkills(false)
         }
-         if (scrollY > 2500) {
-          setcontact(true)
-        }
-        else{
-          setcontact(false)
-        }
+     
       
     };
 
@@ -111,9 +106,10 @@ I design and develop modern web applications using React, TypeScript, Node.js, a
             </div>
         </div></>:null}
     </div>
+    {/* My Skills*/}
     <div className={Winners?"Main_SkillsDarks":"Main_Skills"}>
-  {Skills?<><span><h1>My Skills</h1></span>
-  <div className="Main_InformationSkills">
+  <span><h1>My Skills</h1></span>
+{  Skills?<><div className="Main_InformationSkills">
     <div className="Button_Skills">
       <button className={Infomations === "All"? 'buttonClick' :Winners?'buttonDark':'button'}  onClick={()=>setInformations("All")}>All</button>
       <button className={Infomations === "Frontend"? 'buttonClick' :Winners?'buttonDark':'button'}  onClick={()=>setInformations("Frontend")}>Frontend</button>
@@ -247,9 +243,31 @@ I design and develop modern web applications using React, TypeScript, Node.js, a
      </> :null }
     </div>
   </div>
+    {/* My Project*/}
+<div className={Winners?"Main_ProjectDarks":"Main_Project"}>
+    <h1>My Project</h1>
 
+  <div className="grid_Project">
+    <div className="Project">
+      <div className="card">
+  <div className="card-inner">
+    <div className="card-front">
+      <img src={Project1} alt="Project1" />
+    </div>
+    <div className={Winners?"card-backDark":"card-back"}>
+      
+      <a href="https://portfolio-dt-liart.vercel.app/">Click here</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+  </div>
+</div>
+    {/* My Content*/}
   <div className="MainContent">
-   {contact ?<><b><span className={Winners?'ContactDark': 'ContactLight'}> <h2>My contact</h2></span></b>
+    <><b><span className={Winners?'ContactDark': 'ContactLight'}> <h2>My contact</h2></span></b>
 
   <div className="Main_informtationContent">
     <div className={Winners?"BlankDark":"BlankLight"}>
@@ -264,7 +282,7 @@ I design and develop modern web applications using React, TypeScript, Node.js, a
 
 
     </div>
-    </div></> :null}
+    </div></> 
   </div>
 
     </>:null}

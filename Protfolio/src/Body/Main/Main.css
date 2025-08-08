@@ -295,14 +295,14 @@ margin-left: 10%;
 .Main_Skills{
     background-color: aliceblue;
     width: 100%;
-    height: 1950px;
-   
-
+     height: auto;
+    padding-bottom: 80px;
 }
 .Main_SkillsDarks{
        background-color: #11183f;
     width: 100%;
-    height: 1950px;
+    height: auto;
+    padding-bottom: 80px;
 }
 .Main_Skills span h1{
    padding-top: 15%;
@@ -455,7 +455,7 @@ transform: scale(1.05);
 
 }
 .MainContent{
-    margin-top: 25%;
+    margin-top: 10%;
 
 }
 .MainContent  b .ContactLight h2{
@@ -500,7 +500,7 @@ gap: 40px;
 padding: 10px;
   position: relative;
     top: 0;
-    animation: OPUp 2s forwards;
+
     transition: .5s ease;
 }
 .BlankDark{
@@ -512,9 +512,7 @@ display: grid;
 grid-template-columns: auto auto auto auto auto  auto   auto;
 gap: 40px;
 padding: 10px;
-  position: relative;
-    top: 0;
-    animation: OPUp 2s forwards;
+  
     transition: .5s ease;
 
 }
@@ -526,7 +524,7 @@ padding: 10px;
     margin-top: 40px;
      position: relative;
     top: 0;
-    animation: OPUp 2s forwards;
+ 
 }
 .BlankDark h1{
     color: #004aad;
@@ -534,25 +532,22 @@ padding: 10px;
     font-size: medium;
     margin: 0;
     margin-top: 40px;
-     position: relative;
-    top: 0;
-    animation: OPUp 2s forwards;
+  
+
 }
 .BlankLight a{
     text-decoration: none;
     color: black;
     transition: .5s ease;
-      position: relative;
-    top: 0;
-    animation: OPUp 2s forwards;
+    
+ 
 }
 .BlankDark a{
     text-decoration: none;
     color: black;
     transition: .5s ease;
-      position: relative;
-    top: 0;
-    animation: OPUp 2s forwards;
+  
+  
 }
 .BlankLight a:hover{
     color: #004aad;
@@ -572,6 +567,143 @@ padding: 10px;
     top: 0;
     animation: OPUp 2s forwards;
     
+}
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front,
+.card-backDark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.card-front {
+    width: 100%;
+    height: 100%;
+  background-color: #6A2C70;
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+margin: 0;
+box-shadow: 0 0  30px .2px rgba(0, 0, 0, 0.305);
+}
+
+.card-back {
+  background-color: rgba(0, 0, 0, 0.111);
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+.card-backDark{
+      background-color: #00000050;
+  color: #fff;
+  display: flex;
+  align-items: center;
+ 
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+.grid_Project{
+ width: 50%;
+ margin-left: 20%;
+ display: grid;
+    grid-template-columns: auto auto  auto;
+    gap: 15px;
+}
+.Main_Project h1{
+    padding-top: 150px;
+padding-bottom: 80px;
+    text-align: center;
+    color: #004aad;
+    transition: .2s;
+
+}
+
+.Main_ProjectDarks h1{
+    padding-top: 150px;
+padding-bottom: 80px;
+    text-align: center;
+    color: #5b99b4;
+    transition: .2s;
+}
+
+.card-front img{
+ width: 100%;
+  border-radius: 10px;
+    height: 100%;
+}
+.card-back a{
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+border-radius: 8px;
+transition: .2s ease;
+    
+}
+.card-back a:hover{
+    transform: scale(1.02);
+}
+.card-backDark a{
+    padding: 10px 20px;
+    background-color: #5b99b4;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+border-radius: 8px;
+transition: .2s ease;
+
+}
+.card-backDark a:hover{
+    transform: scale(1.02);
+}
+@media (max-width: 1180px){
+    .grid_Project{
+ width: 50%;
+ margin-left: 20%;
+ display: grid;
+    grid-template-columns: auto auto  ;
+    gap: 20px;
+}
 }
 @media (max-width: 980px){
     .Main_Information_ME{
@@ -731,9 +863,12 @@ margin: 0;
 
 }
 .Main_SkillsDarks{
-    height: 2300px;
+    height: auto;
+    padding-bottom: 25px;
 }.Main_Skills{
-    height: 2300px;
+    height: auto;
+    padding-bottom: 25px;
+
 }
 .BlankDark{
     width: 100%;
@@ -780,6 +915,11 @@ font-size: small;
 }
 .Skills p{
     font-size: smaller;
+}
+}
+@media (max-width: 783px){
+.grid_Project{
+    grid-template-columns: auto;
 }
 }
 @media (max-width: 620px){
@@ -853,6 +993,9 @@ grid-template-columns: auto auto;
     margin-left: 10%;
 font-size: x-small;
 }
+.Main_Project h1{
+    font-size: large;
+}
 .BlankDark a{
     
 font-size: x-small;
@@ -915,10 +1058,12 @@ font-size: x-small;
    
 }
 .Main_Skills{
-    height: 1600px;
+    height: auto;
+    padding-bottom: 25px;
 }
 .Main_SkillsDarks{
- height: 1600px;
+ height: auto;
+padding-bottom: 25px;
 }
 .MainContent{
     margin-top: 200px;
@@ -926,4 +1071,12 @@ font-size: x-small;
 .MainContent .BlankLight p{
  font-size: larger;
 }
+.grid_Project{
+    margin-left: 7%;
+}
+}
+@media (max-width:400px) {
+    .Button_Skills button{
+margin-top: 10px;
+    }
 }

@@ -14,10 +14,10 @@ type Contexts = {
   setTop: Dispatch<SetStateAction<boolean>>;
  AboutMe:boolean,
  Skills:boolean,
- contact:boolean,
+
  setAboutMe: Dispatch<SetStateAction<boolean>>,
  setSkills: Dispatch<SetStateAction<boolean>>,
- setcontact: Dispatch<SetStateAction<boolean>>
+
 };
 
 
@@ -34,7 +34,7 @@ const ContextProvider = ({ children }: Props) => {
   const [Top, setTop] = useState<boolean>(false);
  const [AboutMe, setAboutMe] = useState<boolean>(false);
   const [Skills, setSkills] = useState<boolean>(false);
-  const [contact, setcontact] = useState<boolean>(false);
+ 
   const CA: Contexts = {
     Winners,
     setWinners,
@@ -42,11 +42,8 @@ const ContextProvider = ({ children }: Props) => {
     Top,
     AboutMe,
     Skills,
-    contact,
     setAboutMe,
-    setSkills,
-    setcontact
-   
+    setSkills
   };
 
   return (

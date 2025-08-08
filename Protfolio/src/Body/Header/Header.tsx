@@ -6,7 +6,7 @@ const Header = () => {
   const context = useContext(ContextAll);
   if (!context) return null;
 
-  const { setAboutMe, setSkills, setcontact, Winners, setWinners } = context;
+  const { setAboutMe, setSkills, Winners, setWinners } = context;
   const [Click, SetClick] = useState(false);
 
   useEffect(() => {
@@ -60,10 +60,7 @@ const Header = () => {
       setSkills(true);
       window.scrollTo({ top: pageHeight * 3.1, behavior: 'smooth' });
     }
-    if (Name === 'Contact') {
-      setcontact(true);
-      window.scrollTo({ top: pageHeight * 5.5, behavior: 'smooth' });
-    }
+
   };
 
   return (
@@ -76,7 +73,7 @@ const Header = () => {
           <a href="#Home" onClick={() => Handle('Home')}>Home</a>
           <a href="#About" onClick={() => Handle('About')}>About</a>
           <a href="#Skills" onClick={() => Handle('Skills')}>Skills</a>
-          <a href="#Contact" onClick={() => Handle('Contact')}>Contact</a>
+         
         </div>
         <label className="ui-switch">
           <input type="checkbox" checked={Winners} onChange={handleChange} />
@@ -100,7 +97,7 @@ const Header = () => {
               <a href="#Home" onClick={() => Handle('Home')}>Home</a><br /><br /><br />
               <a href="#About" onClick={() => Handle('About')}>About</a><br /><br /><br />
               <a href="#Skills" onClick={() => Handle('Skills')}>Skills</a><br /><br /><br />
-              <a href="#Contact" onClick={() => Handle('Contact')}>Contact</a>
+              
             </div>
           </div>
         ) : (
