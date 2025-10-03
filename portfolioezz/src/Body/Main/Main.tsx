@@ -62,12 +62,12 @@ Beyond coding, I <span>enjoy working</span> in collaborative environments, mento
             </div>
         </div>
         <div className="WordInfomations">
-            <div className={Winners?"Word1Dark":"Word1"} data-aos='slide' >
+            <div className={Winners?"Word1Dark":"Word1"} data-aos='fade-up' >
              <h4 className={Winners?'h4sDark':'h4slight'}>Who I Am</h4>
              <p>
 Creative and performance-driven full-stack developer with a deep focus on writing clean, maintainable code. I specialize in building responsive web interfaces and scalable backend systems that deliver real value.</p>
             </div>
-            <div className={Winners?"Word2Dark":"Word2"} data-aos='slide'>
+            <div className={Winners?"Word2Dark":"Word2"} data-aos='fade-up'>
        <h4 className={Winners?'h4sDark':'h4slight'}>What I Do</h4>
        <p>
 I design and develop modern web applications using React, TypeScript, Node.js, and MongoDB. I turn ideas into interactive digital solutions—optimized for speed, usability, and long-term growth.
