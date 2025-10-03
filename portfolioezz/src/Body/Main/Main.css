@@ -1,0 +1,1564 @@
+.Main_About{
+    margin-top: 200px;
+    height: auto;
+}
+ .AboutMeLight  h1{
+    text-align: center;
+    color: #004aad;
+    font-family: 900;
+    }
+
+.h1sNamelight{
+    color: #000;
+}
+.h1sNamedark{
+    color: aliceblue;
+}
+ .AboutMeDark  h1{  
+    text-align: center;
+    color: #5b99b4;
+    font-family: 900;
+}
+.Main_Information_ME{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+}
+
+.Aboutplight {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    transition: .5s;
+    color: oklch(.446 .03 256.802); 
+}
+.InformationAboutMe span{
+    color: #004aad;
+}
+.InformationAboutMeDark span{
+    color: #5b99b4;
+
+}
+.AboutpDark{
+     width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    transition: .5s;
+    color: aliceblue;
+
+}
+.WordInfomations{
+    margin-top: 10%;
+}
+.Word1{
+    position: relative;
+left: 50%;
+width: 56%;
+border-radius: 10px;
+ box-shadow: 0px 15px 30px .5px rgba(0, 0, 0, 0.119);
+background-color: aliceblue;
+height: 150px;
+top: 0;
+animation: OPUp 4s forwards;
+
+}
+.Word1Dark{
+        position: relative;
+left: 50%;
+width: 48%;
+border-radius: 10px;
+ box-shadow: 0px 15px 30px .5px rgba(0, 0, 0, 0.199);
+background-color: #11183f;
+color: aliceblue;
+height: 150px;
+top: 0;
+animation: OPUp 4s forwards;
+
+}
+.Word2{
+    margin-top: 10%;
+  position: relative;
+right: -2%;
+width: 48%;
+border-radius: 10px;
+ box-shadow: 0px 15px  30px 1px rgba(0, 0, 0, 0.122);
+background-color: aliceblue;
+height: 150px;
+top: 0;
+animation: OPUp 4s forwards;
+margin-bottom: 200px;
+}
+.Word2Dark{
+   margin-top: 10%;
+  position: relative;
+right: -2%;
+width: 48%;
+border-radius: 10px;
+ box-shadow: 0px 15px  30px 1px rgba(0, 0, 0, 0.112);
+background-color: #11183f;
+color: aliceblue;
+height: 150px;
+top: 0;
+animation: OPUp 4s forwards;
+margin-bottom: 200px;   
+}
+.WordInfomations p{
+width: 80%;
+margin-left: 10%;
+}
+.WordInfomations .h4slight{
+    color: #004aad;
+    font-size: larger;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+.WordInfomations .h4sDark{
+    color: #5b99b4;
+    font-size: larger;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+.Main_Skills{
+    background-color: aliceblue;
+    width: 100%;
+     height: auto;
+    padding-bottom: 80px;
+}
+.Main_SkillsDarks{
+       background-color: #11183f;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+}
+.Main_Skills span h1{
+   padding-top: 15%;
+   margin: 0;
+    color: #004aad;
+    text-align: center;
+     position: relative;
+    transition: .1s ease;
+
+    top: 0;
+    animation: OPUp 2s forwards;
+}
+.Main_SkillsDarks span h1{
+   padding-top: 15%;
+   margin: 0;
+    color: #5b99b4;
+    text-align: center;
+     position: relative;
+    top: 0;
+    transition: .1s ease;
+    animation: OPUp 2s forwards;
+}
+
+.Main_InformationSkills{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+     position: relative;
+    top: 0;
+    animation: OPUp 2s forwards;
+}
+.Button_Skills{
+    padding-top: 3%;
+    margin-left: 4%;
+}
+.button{
+    margin-left: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: lightgray;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+    transition: .2s ease;
+    color: black;
+}
+.button:hover {
+box-shadow: 0 10px 20px 1px rgba(0, 0, 0, 0.077);
+    color: #004aad;
+
+}
+.buttonDark{
+    margin-left: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #5b99b4;
+    color: black;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+    transition: .2s ease;
+    
+}
+.buttonDark:hover {
+box-shadow: 0 10px 20px 1px rgba(0, 0, 0, 0.11);
+    color: aliceblue;
+
+}
+.buttonClick {
+     margin-left: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #004aad;
+    font-size: large;
+    font-weight: 500;
+    transition: .5s ease;
+    color: aliceblue;
+}
+.SubSkills {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    margin-top: 40px;
+     position: relative;
+    top: 0;
+    animation: OPUp 2s forwards;
+
+}
+.Skills{
+  width: 90%    ;  
+  height: 150px;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    transition: .5s ease;
+}
+.SkillsDark{
+    width: 90%    ;  
+  height: 150px;
+    background-color: #5b99b4;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    transition: .5s ease;
+}
+.Skills img{
+    width: 40px;
+    padding-top: 20px;
+}
+.SkillsDark img{
+    width: 40px;
+    padding-top: 20px;
+}
+.Skills a{
+color: black;
+text-decoration: none;
+transition: .5s ease;
+
+} 
+.SkillsDark a{
+color: black;
+text-decoration: none;
+transition: .5s ease;
+
+} 
+.Skills:hover a{
+color: #004aad;
+} 
+.SkillsDark:hover a{
+color: aliceblue;
+} 
+.SkillsDark:hover{
+transform: scale(1.05);
+
+}
+.Skills:hover{
+transform: scale(1.05);
+
+}
+.MainContent{
+    margin-top: 10%;
+
+}
+.MainContent  b .ContactLight h2{
+    color: #004aad;
+    font-weight: 700;
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 10% ;
+      position: relative;
+    top: 0;
+    animation: OPUp 2s forwards;
+    transition: .5s ease;
+}
+.MainContent  b .ContactDark h2{
+    color:  #5b99b4;
+    font-weight: 700;
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 10% ;
+      position: relative;
+    top: 0;
+    animation: OPUp 2s forwards;
+    transition: .5s ease;
+
+}
+
+.Main_informtationContent{
+    width: 80%;
+    margin-left: 10%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.BlankLight{
+    width: 100%;
+    background-color: lightgray;
+height: 100px;
+border-radius: 20px;
+display: grid;
+grid-template-columns: auto auto auto auto auto  auto   auto;
+gap: 40px;
+padding: 10px;
+  position: relative;
+    top: 0;
+
+    transition: .5s ease;
+}
+.BlankDark{
+    width: 100%;
+    background-color: #5b99b4;
+height: 100px;
+border-radius: 20px;
+display: grid;
+grid-template-columns: auto auto auto auto auto  auto   auto;
+gap: 40px;
+padding: 10px;
+  
+    transition: .5s ease;
+
+}
+.BlankLight h1{
+    color: #004aad;
+   width: 100%  ;
+    font-size: medium;
+    margin: 0;
+    margin-top: 40px;
+     position: relative;
+    top: 0;
+ 
+}
+.BlankDark h1{
+    color: #004aad;
+   width: 100%  ;
+    font-size: medium;
+    margin: 0;
+    margin-top: 40px;
+  
+
+}
+.BlankLight a{
+    text-decoration: none;
+    color: black;
+    transition: .5s ease;
+    
+ 
+}
+.BlankDark a{
+    text-decoration: none;
+    color: black;
+    transition: .5s ease;
+  
+  
+}
+.BlankLight a:hover{
+    color: #004aad;
+
+}
+.BlankDark a:hover{
+    color: aliceblue;
+}
+.Line{
+    position: relative;
+   
+    width: 3px;
+    height: 40px;
+    background-color: #004aad;
+    margin-top: 27px;
+      position: relative;
+    top: 0;
+    animation: OPUp 2s forwards;
+    
+}
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-front,
+.card-backDark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.card-front {
+    width: 100%;
+    height: 100%;
+  background-color: #6A2C70;
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+margin: 0;
+box-shadow: 0 0  30px .2px rgba(0, 0, 0, 0.305);
+}
+
+.card-back {
+  background-color: rgba(0, 0, 0, 0.111);
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+.card-backDark{
+      background-color: #00000050;
+  color: #fff;
+  display: flex;
+  align-items: center;
+ 
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+.grid_Project{
+ width: 50%;
+ margin-left: 20%;
+ display: grid;
+    grid-template-columns: auto auto  auto;
+    gap: 15px;
+}
+.Main_Project h1{
+    padding-top: 150px;
+padding-bottom: 80px;
+    text-align: center;
+    color: #004aad;
+    transition: .2s;
+
+}
+/*works janky on mobile :<*/
+.container {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  transition: 200ms;
+}
+
+
+#card {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 700ms;
+  background-color: #004bad87 ;
+  text-align: center;
+  box-shadow: 0 0 30px .5px rgba(0, 0, 0, 0.17);
+}
+#card img{
+    width: 30px;
+    margin-left: 15px;
+    padding: 10px;
+        background-color: aliceblue;
+        border-radius: 50%;
+    object-fit: cover;
+}
+#card svg{
+    width: 30px;
+    margin-left: 15px;
+    padding: 10px;
+        background-color: aliceblue;
+        border-radius: 50%;
+    object-fit: cover;
+}
+#card a{
+text-decoration: none;
+color: #fff;
+}
+
+#cardDark{
+      position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 700ms;
+  text-align: center;
+
+  background-color: #5b99b467 ;
+  box-shadow: 0 0 30px .5px rgba(0, 0, 0, 0.17);
+
+}
+
+
+#cardDark img{
+    width: 30px;
+    margin-left: 14px;
+    padding: 10px;
+        background-color: aliceblue;
+        border-radius: 50%;
+    object-fit: cover;
+}
+#cardDark a{
+text-decoration: none;
+color: #fff;
+}
+
+#prompt {
+  bottom: 8px;
+  left: 12px;
+  z-index: 20;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 300ms ease-in-out-out;
+  position: absolute;
+  max-width: 110px;
+  color: rgb(255, 255, 255);
+}
+
+.tracker {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: 100%;
+}
+
+.tracker:hover {
+  cursor: pointer;
+}
+
+.tracker:hover ~ #card #prompt {
+  opacity: 0;
+}
+
+.tracker:hover ~ #card {
+  transition: 300ms;
+  filter: brightness(1.1);
+}
+
+.container:hover #card::before {
+  transition: 200ms;
+  content: '';
+  opacity: 80%;
+}
+.BackScreen{
+    position: relative;
+     width: 190px;
+  height: 254px;
+  border-radius: 10px;
+    z-index: -1;
+    background-color: #11183fc5;
+}
+.canvas {
+  perspective: 800px;
+  inset: 0;
+  z-index: 200;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "tr-1 tr-2 tr-3 tr-4 tr-5"
+    "tr-6 tr-7 tr-8 tr-9 tr-10"
+    "tr-11 tr-12 tr-13 tr-14 tr-15"
+    "tr-16 tr-17 tr-18 tr-19 tr-20"
+    "tr-21 tr-22 tr-23 tr-24 tr-25";
+}
+
+#card::before {
+  content: '';
+  background: #004bad5e;
+  filter: blur(2rem);
+  opacity: 30%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: 200ms;
+}
+#cardDark::before {
+  content: '';
+  background: #11183f;
+  filter: blur(2rem);
+  opacity: 30%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: 200ms;
+}
+.tr-1 {
+  grid-area: tr-1;
+}
+
+.tr-2 {
+  grid-area: tr-2;
+}
+
+.tr-3 {
+  grid-area: tr-3;
+}
+
+.tr-4 {
+  grid-area: tr-4;
+}
+
+.tr-5 {
+  grid-area: tr-5;
+}
+
+.tr-6 {
+  grid-area: tr-6;
+}
+
+.tr-7 {
+  grid-area: tr-7;
+}
+
+.tr-8 {
+  grid-area: tr-8;
+}
+
+.tr-9 {
+  grid-area: tr-9;
+}
+
+.tr-10 {
+  grid-area: tr-10;
+}
+
+.tr-11 {
+  grid-area: tr-11;
+}
+
+.tr-12 {
+  grid-area: tr-12;
+}
+
+.tr-13 {
+  grid-area: tr-13;
+}
+
+.tr-14 {
+  grid-area: tr-14;
+}
+
+.tr-15 {
+  grid-area: tr-15;
+}
+
+.tr-16 {
+  grid-area: tr-16;
+}
+
+.tr-17 {
+  grid-area: tr-17;
+}
+
+.tr-18 {
+  grid-area: tr-18;
+}
+
+.tr-19 {
+  grid-area: tr-19;
+}
+
+.tr-20 {
+  grid-area: tr-20;
+}
+
+.tr-21 {
+  grid-area: tr-21;
+}
+
+.tr-22 {
+  grid-area: tr-22;
+}
+
+.tr-23 {
+  grid-area: tr-23;
+}
+
+.tr-24 {
+  grid-area: tr-24;
+}
+
+.tr-25 {
+  grid-area: tr-25;
+}
+
+.tr-1:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-2:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-3:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-4:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-5:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-6:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-7:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-8:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-9:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-10:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-11:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-12:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-13:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-14:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-15:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-16:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-17:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-18:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-19:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-20:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-21:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-22:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-23:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-24:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-25:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-1:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-2:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-3:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-4:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-5:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-6:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-7:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-8:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-9:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-10:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-11:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-12:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-13:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-14:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-15:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-16:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-17:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-18:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-19:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-20:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-21:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-22:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-23:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-24:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-25:hover ~ #cardDark {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+   /* iOS Safari */
+  -webkit-user-select: none;
+   /* Safari */
+   /* Konqueror HTML */
+  -moz-user-select: none;
+   /* Old versions of Firefox */
+  -ms-user-select: none;
+   /* Internet Explorer/Edge */
+  user-select: none;
+   /* Non-prefixed version, currently
+									supported by Chrome, Edge, Opera and Firefox */
+}
+.Main_ProjectDarks h1{
+    padding-top: 150px;
+padding-bottom: 80px;
+    text-align: center;
+    color: #5b99b4;
+    transition: .2s;
+}
+.Main_Cards {
+    margin-top:60px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.card-front img{
+ width: 100%;
+  border-radius: 10px;
+    height: 100%;
+}
+.card-back a{
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+border-radius: 8px;
+transition: .2s ease;
+    
+}
+.card-back a:hover{
+    transform: scale(1.02);
+}
+.card-backDark a{
+    padding: 10px 20px;
+    background-color: #5b99b4;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+border-radius: 8px;
+transition: .2s ease;
+
+}
+.card-backDark a:hover{
+    transform: scale(1.02);
+}
+.card {
+  width: 230px;
+  border-radius: 20px;
+  background: #004aad;
+  padding: 5px;
+  overflow: hidden;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+.Main_Myprojects{
+    margin-top: 200px;
+
+    text-align: center;
+    color: #004aad;
+}
+.Main_MyprojectsDark{
+      margin-top: 200px;
+
+    text-align: center;
+    color: #5b99b4;
+}
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card .top-section {
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    45deg,
+    rgb(4, 159, 187) 0%,
+    rgb(80, 246, 255) 100%
+  );
+  position: relative;
+}
+
+.card .top-section .border {
+  border-bottom-right-radius: 10px;
+  height: 30px;
+  width: 130px;
+  background: #004aad;
+  position: relative;
+  transform: skew(-40deg);
+  box-shadow: -10px -10px 0 0 #004aad;
+}
+
+.card .top-section .border::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  right: -15px;
+  background:rgba(255, 255, 255, 0);
+  border-top-left-radius: 10px;
+  box-shadow: -5px -5px 0 2px #004aad;
+}
+
+.card .top-section::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: rgba(255, 255, 255, 0);
+  height: 15px;
+  width: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: -5px -5px 0 2px #004aad;
+}
+
+.card .top-section .icons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .top-section .icons .logo img{
+    width: 100%;
+  height: 100%;
+}
+
+
+
+.card .top-section .icons .social-media {
+  height: 100%;
+  padding: 8px 15px;
+  display: flex;
+  gap: 7px;
+}
+
+.card .top-section .icons .social-media a {
+  height: 100%;
+  color: #1b233d;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+
+.card .top-section .icons .social-media a:hover {
+ color: white;
+}
+
+.card .bottom-section {
+  margin-top: 15px;
+  padding: 10px 5px;
+}
+
+.card .bottom-section .titles {
+  display: block;
+  font-size: 17px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.card .bottom-section .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card .bottom-section .row .item {
+  flex: 30%;
+  text-align: center;
+  padding: 5px;
+  color: rgba(170, 222, 243, 0.721);
+}
+
+.card .bottom-section .row .item .big-text {
+  font-size: 12px;
+  display: block;
+}
+
+.card .bottom-section .row .item .regular-text {
+  font-size: 9px;
+}
+
+.card .bottom-section .row .item:nth-child(2) {
+  border-left: 1px solid rgba(255, 255, 255, 0.126);
+  border-right: 1px solid rgba(255, 255, 255, 0.126);
+}
+@media (max-width: 1431px){
+    .Main_Cards{
+ width: 50%;
+ margin-left: 25%;
+ display: grid;
+    grid-template-columns: auto auto  ;
+    gap: 20px;
+}
+}
+@media (max-width: 980px){
+    .Main_Information_ME{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.Main_About h1{
+    font-size: x-large;
+}
+.ImageAndName{
+    margin-left: 32%;
+}
+.ImageAndName img{
+    width: 100px;
+}
+
+.ImageAndName h1{
+    font-size: smaller;
+margin-left: 10% ;
+ position: relative;
+    top: 0;
+  animation: OPUp 2s forwards;
+
+}
+
+
+
+
+
+
+.WordInfomations{
+    margin-top: 10%;
+}
+
+.WordInfomations p{
+width: 80%;
+margin-left: 10%;
+font-size: small;
+
+}
+.WordInfomations .h4slight{
+    color: #004aad;
+    font-size: larger;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: medium;
+
+}
+.WordInfomations .h4sDark{
+    color: #5b99b4;
+    font-size: larger;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: medium;
+
+}
+.Main_Skills span{
+    font-size: small;
+}
+.Main_InformationSkills{
+   margin-left: 5%;
+    width: 90%;
+} 
+.buttonClick{
+    padding: 5px 20px;
+    font-size: medium;
+}
+.buttonDark{
+    padding: 5px 20px;
+    font-size: medium;
+
+}
+.button{
+    padding: 5px 20px;
+    font-size: medium;
+
+}
+.SkillsDark{
+width: 90%;
+height: 100px;
+margin: 0;
+}
+.Skills{
+width: 90%;
+height: 100px;
+margin: 0;
+}
+.SubSkills{
+    gap: 10px;
+    grid-template-columns: auto auto ;
+    height: auto;
+   padding-bottom: 50px;
+   margin-left: 7%;
+    
+}
+.Main_InformationSkills{
+    height: auto;
+
+}
+.Main_SkillsDarks{
+    height: auto;
+    padding-bottom: 25px;
+}.Main_Skills{
+    height: auto;
+    padding-bottom: 25px;
+
+}
+.BlankDark{
+    width: 100%;
+padding: 0;
+    gap: 0;
+
+}
+.BlankDark h1{
+    margin-left: 0;
+font-size: small;
+}
+.BlankDark a{
+    
+font-size: small;
+}
+.BlankLight{
+    width: 100%;
+padding: 0;
+    gap: 0;
+
+}
+.BlankLight h1{
+    margin-left: 0;
+    
+font-size: small;
+}
+.BlankLight a{
+    
+font-size: small;
+}
+.Main_informtationContent{
+    width: 100%;
+    margin-left: 0%;
+ 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+.Main_Skills span h1{
+    font-size: x-large;
+}
+.Main_SkillsDarks span h1{
+    font-size: x-large;
+}
+.Skills p{
+    font-size: smaller;
+}
+}
+@media (max-width: 783px){
+.grid_Project{
+    grid-template-columns: auto;
+}
+    .Main_Cards{
+ width: 50%;
+ margin-left: 25%;
+ display: grid;
+    grid-template-columns: 1fr  ;
+    gap: 20px;
+}
+.Main_Myprojects {
+    font-size: 12px;
+}
+.Main_MyprojectsDark{
+         font-size: 12px;
+        }
+}
+@media (max-width: 620px){
+    .ImageAndName{
+        margin-left: 25%;
+        transition: .5s ease;
+    }
+
+.Word1Dark{
+    height: auto;
+    padding-bottom: 10px;
+    width: 90%;
+    left: 0;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}.Word2Dark{
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+      width: 90%;
+    left: 0;
+    margin-left: 5%;    
+}
+.Word1{
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+      width: 90%;
+    left: 0;
+    margin-left: 5%;
+}.Word2{
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+      width: 90%;
+    left: 0;
+    margin-left: 5%;
+}
+.Aboutplight{
+    margin-left: 10%;
+    width: 80%;
+}
+.BlackScreen i{
+    left: 85%;
+}
+.Button_Skills .button {
+padding: 5px 5px;
+font-size: small;
+}
+.Button_Skills .buttonDark {
+padding: 5px 5px;
+font-size: small;
+
+}
+.buttonClick {
+padding: 5px 5px;
+
+font-size: small;
+
+}
+.BlankDark{
+    width: 100%;
+padding: 0;
+    gap: 0;
+grid-template-columns: auto auto;
+}
+.BlankDark h1{
+    margin-top: 10%;
+    margin-left: 10%;
+font-size: x-small;
+}
+.Main_Project h1{
+    font-size: large;
+}
+.BlankDark a{
+    
+font-size: x-small;
+}
+.BlankDark{
+    width: 95%;
+padding: 0;
+    gap: 0;
+    margin-left: 2.5%;
+grid-template-columns: auto auto;
+}
+.BlankLight{
+    width: 95%;
+padding: 0;
+    gap: 0;
+    margin-left: 2.5%;
+grid-template-columns: auto auto;
+}
+.BlankLight h1{
+    margin-top: 10%;
+    margin-left: 5%;
+font-size: x-small;
+font-weight: 900;
+}
+.BlankDark h1{
+    margin-top: 10%;
+    margin-left: 5%;
+font-size: x-small;
+font-weight: 900;
+
+}
+.MainContent {
+    margin-top: 95%;
+}
+.MainContent b .ContactLight h2 {
+    font-size: x-large;
+}
+.MainContent b .ContactDark h2 {
+    font-size: x-large;
+}
+.BlankLight a{
+font-weight: 200;
+    
+font-size: x-small;
+}.BlankDark a{
+font-weight: 200;
+    
+font-size: x-small;
+}
+.Line{
+   display: none;
+}
+.Main_informtationContent{
+    width: 100%;
+    margin-left: 0%;
+ 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+   
+}
+.Main_Skills{
+    height: auto;
+    padding-bottom: 25px;
+}
+.Main_SkillsDarks{
+ height: auto;
+padding-bottom: 25px;
+}
+.MainContent{
+    margin-top: 200px;
+}
+.MainContent .BlankLight p{
+ font-size: larger;
+}
+.grid_Project{
+    margin-left: 7%;
+}
+}
+@media (max-width:457px) {
+.SubSkills{
+  width: 60%;
+  margin-left: 20%;
+  grid-template-columns: 1fr;
+}
+.Aboutplight{
+  width: 80%;
+  text-align: start;
+  margin-left: 10%;
+}
+.AboutpDark{
+  width: 80%;
+  text-align: start;
+  margin-left: 10%;
+}
+}
+@media (max-width:400px) {
+    .Button_Skills button{
+margin-top: 10px;
+    }
+        .Main_Cards{
+ width: 60%;
+ margin-left: 20%;
+ display: grid;
+    grid-template-columns: 1fr ;
+    
+}
+}
