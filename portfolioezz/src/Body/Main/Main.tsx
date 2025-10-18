@@ -179,7 +179,7 @@ I design and develop modern web applications using React, TypeScript, Node.js, a
       <h1>My Project</h1>
     </div>
     <div className="Main_Cards" data-aos='fade-up'>
-<div className="card" onClick={()=>{location.href='./ex'}}>
+<div className="card" onClick={()=>{location.href='https://portfolio-dt-beta.vercel.app/'}}>
   <div className="top-section">
     <div className="border"></div>
     <div className="icons">
